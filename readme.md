@@ -10,7 +10,7 @@
 
 > The filtering settings for the ICM426xx has changed to match what is used by Ardupilot and Betaflight in INAV 7.1. When upgrading from older versions you may need to recalibrate the Accelerometer and if you are not using INAV's default tune you may also want to check if the tune is still good.
 
-# M7, M6 and older UBLOX GPS units PSA
+# M7, M6 and older UBLOX GPS units PSA 
 
 > INAV 8.0 will mark those GPS as deprecated and INAV 9.0.0 will require UBLOX units with Protocol version 15.00 or newer. This means that you need a GPS unit based on UBLOX M8 or newer.
 
