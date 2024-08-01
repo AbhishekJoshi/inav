@@ -68,6 +68,12 @@
 #define MPU6500_EXTI_PIN         PC5
 #define IMU_MPU6500_ALIGN        CW90_DEG
 
+#define USE_IMU_ICM42605
+#define IMU_ICM42605_ALIGN   CW90_DEG
+#define ICM42605_SPI_BUS     BUS_SPI1
+#define ICM42605_CS_PIN      PA4
+#define ICM42605_EXTI_PIN    PC3   
+
 #define USE_IMU_MPU6000
 #define MPU6000_CS_PIN           PA4
 #define MPU6000_SPI_BUS          BUS_SPI1
