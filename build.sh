@@ -4,7 +4,7 @@ set -e
 if [[ $# == 0 ]]; then
   echo -e "\
 Usage syntax: ./build.sh <TARGET>
-
+ 
 Notes:
   * You can specify multiple targets.
     ./build.sh <TARGET_1> <TARGET_2> <TARGET_N>
